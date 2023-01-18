@@ -43,3 +43,29 @@ hr{
 .player-name{
     margin-left: 16px;
 }
+/* -----------------------
+        blog style
+--------------------
+*/
+.top-blog{
+    margin-top: 22px;
+}
+/* Blog thumbnail */
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+/* Blog info */
+.blog-info{
+    font-size: 20px;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    color: #562EFF;
+}
