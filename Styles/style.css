@@ -14,10 +14,22 @@ main{
     width: 870px;
     padding: 30px;
 }
+hr{
+    border: 1px solid #D1D1D1;
+}
 /* top player style */
+.top-players{
+    margin-bottom: 22px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin: 3px 0 40px 0;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
 }
 
 .player{
