@@ -80,3 +80,52 @@ hr{
     color: #562EFF;
     text-decoration: none;
 }
+
+/* --------------------
+    Latest Course Style
+    ----------------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    display: flex;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.rating span{
+    font-size: 15px;
+    color: #A2A2A2;
+    font-weight: 400;
+}
+.duration{
+    background: #FFE4E8;
+    padding: 7px;
+    border-radius: 15px;
+}
+.duration span{
+    font-size: 15px;
+    color: #FF4A60;
+}
+.fa-clock{
+    color: #FF4A60;
+    height: 17px;
+    width: 17px;    
+}
+.duration-time p{
+    font-size: 15px;
+    font-weight: 600;
+}
